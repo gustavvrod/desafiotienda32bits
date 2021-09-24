@@ -1,8 +1,8 @@
 <template>
     <div>
-        <h2>Productos disponibles</h2>
+        <h2 class="my-4">Productos disponibles</h2>
         <ul>
-            <li v-for="(producto, clave) in productos" :key="clave">
+            <li class="mb-1" v-for="(producto, clave) in productos" :key="clave">
                 <label v-text="`${producto.id} | ${producto.nombre} | ${producto.stock} | ${producto.precio}`" :style="{background: producto.color}"></label> 
             </li>
         </ul>

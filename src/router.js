@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 const Inicio = () =>
-    import ('./components/Inicio')
+    import ('./views/Inicio')
 const Busquedas = () =>
-    import ('./components/Busquedas')
+    import ('./views/Busquedas')
 const Ventas = () =>
-    import ('./components/Ventas')
+    import ('./views/Ventas')
 const Total = () =>
-    import ('./components/Total')
+    import ('./views/Total')
 
 Vue.use(Router)
 
